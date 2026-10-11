@@ -1,0 +1,10 @@
+ENT.Type = "anim"
+ENT.Base = "base_gmodentity"
+ENT.PrintName = "Kill Board"
+ENT.Author = "Boggle"
+ENT.Category = "Boggle"
+ENT.Spawnable = true
+ENT.AdminOnly = true
+ENT.RenderGroup = RENDERGROUP_TRANSLUCENT
+ENT.IsBoggleKills = true
+ENT.Model = "models/hunter/blocks/cube025x025x025.mdl"

@@ -1,0 +1,7 @@
+"AddonInfo"
+{
+	"name"		"Boggle Kills"
+	"version"	"2.0.0"
+	"author"	"Boggle"
+	"info"		"In-world live kill board. Persistent scores. Perma-prop friendly."
+}
