@@ -42,14 +42,16 @@ function ENT:Use( ply )
     end
 end
 
-duplicator.RegisterEntityClass( "ent_boggle_kills", function( ply, data )
+-- The duplicator passes the listed keys as arguments (false when missing), then
+-- restores network vars itself, so a pasted board keeps its view.
+duplicator.RegisterEntityClass( "ent_boggle_kills", function( ply, pos, ang )
     if IsValid( ply ) and not ply:IsAdmin() then return end
 
     local ent = ents.Create( "ent_boggle_kills" )
     if not IsValid( ent ) then return end
 
-    ent:SetPos( data.Pos or vector_origin )
-    ent:SetAngles( data.Angle or angle_zero )
+    ent:SetPos( pos or vector_origin )
+    ent:SetAngles( ang or angle_zero )
     ent:Spawn()
 
     return ent

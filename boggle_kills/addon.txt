@@ -1,7 +1,7 @@
 "AddonInfo"
 {
 	"name"		"Boggle Kills"
-	"version"	"2.0.0"
+	"version"	"2.1.0"
 	"author"	"Boggle"
-	"info"		"In-world live kill board. Persistent scores. Perma-prop friendly."
+	"info"		"In-world live kill board with rotating leaderboards, kill streaks and a live kill ticker. Persistent scores. Perma-prop friendly."
 }
